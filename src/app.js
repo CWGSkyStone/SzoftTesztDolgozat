@@ -1,6 +1,13 @@
+/*
+* calcArea külön modulba került
+* File: app.js
+* Github: https://github.com/oktatte/tepentagon.git
+*/
+
 import * as bootstrap from 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style.css'
+import { calcArea } from './tools.js'
 
 const doc = {
     pentaForm: document.getElementById('pentaForm'),
@@ -20,6 +27,4 @@ function render() {
 }
 
 
-function calcArea(sideLength) {
-    return Math.sqrt(25+10*Math.sqrt(5)) / 4 * Math.pow(sideLength, 2)
-}
+
