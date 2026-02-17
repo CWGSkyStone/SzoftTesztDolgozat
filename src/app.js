@@ -1,7 +1,9 @@
 /*
-* calcArea külön modulba került
 * File: app.js
-* Github: https://github.com/oktatte/tepentagon.git
+* original Github: https://github.com/oktatte/tepentagon.git
+* Github: https://github.com/CWGSkyStone/SzoftTesztDolgozat
+* calcArea külön modulba került
+* Dátum: 2026.02.17
 */
 
 import * as bootstrap from 'bootstrap'
